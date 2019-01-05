@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <link rel="stylesheet" href="../resources/css/bootstrap.css">
+      <link rel="stylesheet" href="../resources/css/myStyle.css">
+      <title>WebArchiver</title>
+    </head>
+
+<body>
+  <h2>Specify URL to be downloaded:</h2>
+
+  <form action="/crawler" method="GET">
+    <p>URI:</p>
+    <input class="form-control" type="text" name="uri" value="" required>
+    <br>
+
+    <p>recLevel:</p>
+    <input class="form-control" type="number" name="reclevel" value="" min="1" required>
+    <br>
+
+    <p>maxFiles:</p>
+    <input class="form-control" type="number" name="maxfiles" value="" min="1" required>
+    <br><br>
+
+    <input class="btn btn-outline-primary" type="submit" value="Download">
+    <input class="btn btn-outline-primary" type="reset" value="Clear Form">
+  </form> 
+</body>
+</html>

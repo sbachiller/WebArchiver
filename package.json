@@ -1,0 +1,29 @@
+{
+  "name": "webarchiver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/STW-UAB/webArchiver-stw-XX.git"
+  },
+  "keywords": [
+    "web",
+    "wget",
+    "archiver"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/STW-UAB/webArchiver-stw-XX/issues"
+  },
+  "homepage": "https://github.com/STW-UAB/webArchiver-stw-XX#readme",
+  "dependencies": {
+    "archiver": "^2.1.1",
+    "cheerio": "^1.0.0-rc.2",
+    "request": "^2.86.0"
+  }
+}
